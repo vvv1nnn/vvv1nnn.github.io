@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #354f52;
+}
+
+li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #cad2c5;
+  text-decoration: none;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #cad2c5;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #2f3e46;
+}
+
+.title {
+  cursor: pointer;
+  color: #84a98c;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 100px;
+}
+
+.subheading {
+  color: #cad2c5;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 90px;
+  padding-top: 30px;
+  padding-left: 200px;
+}
+
+.smallerheading {
+  color: #cad2c5;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  padding-top: 30px;
+  padding-left: 200px;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: #84a98c;
+  font-size: 20px;
+}
+
+p {
+  color: #cad2c5;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  padding-top: 30px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+h2 {
+  color: #cad2c5;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-left: 200px;
+}
+
+#intro {
+  color: #cad2c5;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-left: 200px;
+}
+
+.floatimage {
+  float: right;
+  margin-right: 200px;
+  width: 400px;
+}
+
+.logo {
+  width: 125px;
+  height: 125px;
+}
+
+div {
+  width: 150px;
+  display: inline-block;
+}
+
+section {
+  padding-top: 30px;
+  padding-left: 200px;
+}
