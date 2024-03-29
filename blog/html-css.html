@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vins Blog | CSS Concepts</title>
+    <link rel="stylesheet" href="../styles/main.css" />
+  </head>
+
+  <body>
+    <header>
+      <img id="mylogo" src="../styles/title.png" alt="Blog Logo" />
+      <nav>
+        <ul>
+          <li><a href="vvv1nnn.github.io/index.html"> About Me </a></li>
+          <li>
+            <a href="#"> Tech Blogs </a>
+            <ul class="dropdown">
+              <li><a href="#"> Test</a></li>
+              <li><a href="#"> Test</a></li>
+              <li><a href="#"> Test</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#"> Core Blogs </a>
+            <ul class="dropdown">
+              <li><a href="blog/te-houtaewa-template.html"> Template</a></li>
+              <li><a href="#"> Test</a></li>
+              <li><a href="#"> Test</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="content">
+      <h1>What is the difference between Margin, Border, and Padding?</h1>
+      <p>
+        In a CSS box model, there are 4 major components: content, padding, border and margin. 
+        <ol>
+          <li> The content is the part of the box which has the text, images, icons, etc. An example
+            of content is this text that is written here.
+          </li>
+          <li>Padding is the space between the content and the border. The white space between the 
+            text and the border in this box is an example of padding.
+          </li>
+          <li> The border can be either a visible or invisible line around the edge of the padding.
+            In my webpage, the black border is visible around the padding and it also has rounding on
+            the edges for an aesthetic look.
+          </li>
+          <li> THe margin is the space around the border; it is the space between the border and the 
+            edge of the screen. It can be used to create responsive webpages.
+          </li>
+        </ol>
+      </p>
+      <p>
+        For reference look at the figure below to see a visualisation of the 4 components. 
+      </p>
+    </div>
+    <img src="../styles/csscomponents.png" class="picture">
+  </body>
+</html>

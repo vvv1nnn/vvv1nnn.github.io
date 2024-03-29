@@ -100,9 +100,27 @@ p {
   border-style: solid;
   border-radius: 5px;
   padding: 10px;
-  margin: 50px 10%;
+  margin: 25px 10%;
 }
 
 nav {
   text-align: center;
+}
+
+.picture {
+  display: block;
+  background: #ffffff;
+  border: black;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0 auto;
+  width: 30%;
+  min-width: 300px;
+}
+
+ol {
+  padding: 5px 40px;
+  font-size: 20px;
 }
